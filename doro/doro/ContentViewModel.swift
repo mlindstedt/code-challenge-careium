@@ -14,6 +14,6 @@ final class ContentViewModel: ObservableObject {
     static let shared: ContentViewModel = ContentViewModel()
 
     init() {
-        self.networkManager.availableTrafficMessages()
+        self.networkManager.listAvailableTrafficMessages()
     }
 }

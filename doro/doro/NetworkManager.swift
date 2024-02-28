@@ -11,9 +11,16 @@ import Alamofire
 struct NetworkManager {
     
     private let baseUrlString: String = "http://api.sr.se/api/v2/traffic/"
-
-    func availableTrafficMessages () {
+    
+    func listAvailableTrafficMessages () {
         AF.request(baseUrlString + "messages")
+            .response { response in
+                debugPrint(response)
+            }
+    }
+    
+    func listTrafficAreas () {
+        AF.request(baseUrlString + "areas")
             .response { response in
             debugPrint(response)
         }

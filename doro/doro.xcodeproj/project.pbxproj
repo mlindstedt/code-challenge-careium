@@ -39,6 +39,7 @@
 /* Begin PBXFileReference section */
 		402067A12B8F668F00EC39B3 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		402067A32B8F681A00EC39B3 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		402067A52B8F7BCB00EC39B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		402E10652B8F5F13002EEBE5 /* doro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		402E10682B8F5F13002EEBE5 /* doroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doroApp.swift; sourceTree = "<group>"; };
 		402E106A2B8F5F13002EEBE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +101,7 @@
 		402E10672B8F5F13002EEBE5 /* doro */ = {
 			isa = PBXGroup;
 			children = (
+				402067A52B8F7BCB00EC39B3 /* Info.plist */,
 				402E10682B8F5F13002EEBE5 /* doroApp.swift */,
 				402E106A2B8F5F13002EEBE5 /* ContentView.swift */,
 				402067A32B8F681A00EC39B3 /* ContentViewModel.swift */,
@@ -440,6 +442,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"doro/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = doro/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -468,6 +471,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"doro/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = doro/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

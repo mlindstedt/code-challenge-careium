@@ -6,8 +6,12 @@
 //
 
 import SwiftUI
+import Alamofire
+
 
 struct ContentView: View {
+    @StateObject private var viewModel = ContentViewModel()
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")

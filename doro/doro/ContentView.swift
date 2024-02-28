@@ -8,16 +8,21 @@
 import SwiftUI
 import Alamofire
 import CoreLocationUI
+import CoreLocation
 
 
 struct ContentView: View {
     @StateObject private var viewModel = ContentViewModel()
     @StateObject var locationManager = LocationManager()
-
+    
     var body: some View {
         VStack {
             if let location = locationManager.location {
                 Text("Your location: \(location.latitude), \(location.longitude)")
+                
+                let coordinates = Coordinates(latitude: location.latitude, longitude: location.longitude)
+                
+                let _ = viewModel.getTrafficArea(coordinates: coordinates)
             }
 
             LocationButton {

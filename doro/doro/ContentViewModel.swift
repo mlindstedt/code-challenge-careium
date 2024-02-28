@@ -14,6 +14,11 @@ final class ContentViewModel: ObservableObject {
     static let shared: ContentViewModel = ContentViewModel()
 
     init() {
-        self.networkManager.listAvailableTrafficMessages()
     }
+    
+    func getTrafficArea(coordinates: Coordinates) {
+        networkManager.listTrafficArea(coordinates: coordinates)
+    }
+    
+
 }

@@ -11,6 +11,7 @@
 		402067A22B8F668F00EC39B3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402067A12B8F668F00EC39B3 /* NetworkManager.swift */; };
 		402067A42B8F681A00EC39B3 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402067A32B8F681A00EC39B3 /* ContentViewModel.swift */; };
 		402067A72B8F8E7E00EC39B3 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402067A62B8F8E7E00EC39B3 /* LocationManager.swift */; };
+		402067A92B8F967200EC39B3 /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402067A82B8F967200EC39B3 /* Coordinates.swift */; };
 		402E10692B8F5F13002EEBE5 /* doroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402E10682B8F5F13002EEBE5 /* doroApp.swift */; };
 		402E106B2B8F5F13002EEBE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402E106A2B8F5F13002EEBE5 /* ContentView.swift */; };
 		402E106D2B8F5F14002EEBE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 402E106C2B8F5F14002EEBE5 /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 		402067A32B8F681A00EC39B3 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		402067A52B8F7BCB00EC39B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		402067A62B8F8E7E00EC39B3 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		402067A82B8F967200EC39B3 /* Coordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
 		402E10652B8F5F13002EEBE5 /* doro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		402E10682B8F5F13002EEBE5 /* doroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doroApp.swift; sourceTree = "<group>"; };
 		402E106A2B8F5F13002EEBE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		402E105C2B8F5F13002EEBE5 = {
 			isa = PBXGroup;
 			children = (
+				402067A82B8F967200EC39B3 /* Coordinates.swift */,
 				402E10672B8F5F13002EEBE5 /* doro */,
 				402E10782B8F5F14002EEBE5 /* doroTests */,
 				402E10822B8F5F14002EEBE5 /* doroUITests */,
@@ -279,6 +282,7 @@
 				402067A42B8F681A00EC39B3 /* ContentViewModel.swift in Sources */,
 				402067A22B8F668F00EC39B3 /* NetworkManager.swift in Sources */,
 				402067A72B8F8E7E00EC39B3 /* LocationManager.swift in Sources */,
+				402067A92B8F967200EC39B3 /* Coordinates.swift in Sources */,
 				402E106B2B8F5F13002EEBE5 /* ContentView.swift in Sources */,
 				402E10692B8F5F13002EEBE5 /* doroApp.swift in Sources */,
 			);

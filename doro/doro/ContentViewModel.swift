@@ -8,11 +8,11 @@
 import Foundation
 import SWXMLHash
 
-final class ContentViewModel: ObservableObject {
 class ContentViewModel: ObservableObject {
     private var networkManager: NetworkManager = NetworkManager()
     
     var regionName: String = ""
+
     // Singleton
     static let shared: ContentViewModel = ContentViewModel()
 
@@ -31,18 +31,12 @@ class ContentViewModel: ObservableObject {
                     print("name \(name)")
                     print("text \(text)")
                 }
-                for child in messages["message"].children {
-                    let name = child.element!.name
-                    let text = child.element!.text
-                    print("name \(name)")
-                    print("text \(text)")
-                }
             } else {
                 print("Traffic messages was not retrieved from request")
             }
         }
     }
-    }
+
     
     func getTrafficArea(coordinates: Coordinates, handler: @escaping (_ regionName : String) -> Void) {
         networkManager.listTrafficAreaWith(coordinates: coordinates) { apiData in

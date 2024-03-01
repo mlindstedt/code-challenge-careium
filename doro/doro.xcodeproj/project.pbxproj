@@ -20,6 +20,7 @@
 		402E10842B8F5F14002EEBE5 /* doroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402E10832B8F5F14002EEBE5 /* doroUITests.swift */; };
 		402E10862B8F5F14002EEBE5 /* doroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402E10852B8F5F14002EEBE5 /* doroUITestsLaunchTests.swift */; };
 		403C9DF32B8FA64A00794BF5 /* SWXMLHash in Frameworks */ = {isa = PBXBuildFile; productRef = 403C9DF22B8FA64A00794BF5 /* SWXMLHash */; };
+		403C9DF72B91B97300794BF5 /* TrafficMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403C9DF62B91B97300794BF5 /* TrafficMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		402E107F2B8F5F14002EEBE5 /* doroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = doroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		402E10832B8F5F14002EEBE5 /* doroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doroUITests.swift; sourceTree = "<group>"; };
 		402E10852B8F5F14002EEBE5 /* doroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		403C9DF62B91B97300794BF5 /* TrafficMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		402E105C2B8F5F13002EEBE5 = {
 			isa = PBXGroup;
 			children = (
+				403C9DF62B91B97300794BF5 /* TrafficMessage.swift */,
 				402067A82B8F967200EC39B3 /* Coordinates.swift */,
 				402E10672B8F5F13002EEBE5 /* doro */,
 				402E10782B8F5F14002EEBE5 /* doroTests */,
@@ -289,6 +292,7 @@
 				402067A92B8F967200EC39B3 /* Coordinates.swift in Sources */,
 				402E106B2B8F5F13002EEBE5 /* ContentView.swift in Sources */,
 				402E10692B8F5F13002EEBE5 /* doroApp.swift in Sources */,
+				403C9DF72B91B97300794BF5 /* TrafficMessage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

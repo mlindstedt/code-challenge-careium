@@ -43,7 +43,7 @@
 /* Begin PBXFileReference section */
 		402067A12B8F668F00EC39B3 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		402067A32B8F681A00EC39B3 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
-		402067A52B8F7BCB00EC39B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		402067A52B8F7BCB00EC39B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		402067A62B8F8E7E00EC39B3 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		402067A82B8F967200EC39B3 /* Coordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
 		402E10652B8F5F13002EEBE5 /* doro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doro.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,8 +89,6 @@
 		402E105C2B8F5F13002EEBE5 = {
 			isa = PBXGroup;
 			children = (
-				403C9DF62B91B97300794BF5 /* TrafficMessage.swift */,
-				402067A82B8F967200EC39B3 /* Coordinates.swift */,
 				402E10672B8F5F13002EEBE5 /* doro */,
 				402E10782B8F5F14002EEBE5 /* doroTests */,
 				402E10822B8F5F14002EEBE5 /* doroUITests */,
@@ -112,12 +110,11 @@
 			isa = PBXGroup;
 			children = (
 				402067A52B8F7BCB00EC39B3 /* Info.plist */,
-				402E10682B8F5F13002EEBE5 /* doroApp.swift */,
-				402E106A2B8F5F13002EEBE5 /* ContentView.swift */,
-				402067A32B8F681A00EC39B3 /* ContentViewModel.swift */,
-				402067A62B8F8E7E00EC39B3 /* LocationManager.swift */,
-				402067A12B8F668F00EC39B3 /* NetworkManager.swift */,
-				402E106C2B8F5F14002EEBE5 /* Assets.xcassets */,
+				40B5B0582B91D0C1000B263D /* Lifecycle */,
+				40B5B0562B91D097000B263D /* Managers */,
+				40B5B0552B91D07D000B263D /* Models */,
+				40B5B0592B91D0F4000B263D /* Resources */,
+				40B5B0572B91D0A9000B263D /* Views */,
 				402E106E2B8F5F14002EEBE5 /* Preview Content */,
 			);
 			path = doro;
@@ -146,6 +143,49 @@
 				402E10852B8F5F14002EEBE5 /* doroUITestsLaunchTests.swift */,
 			);
 			path = doroUITests;
+			sourceTree = "<group>";
+		};
+		40B5B0552B91D07D000B263D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				403C9DF62B91B97300794BF5 /* TrafficMessage.swift */,
+				402067A82B8F967200EC39B3 /* Coordinates.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		40B5B0562B91D097000B263D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				402067A62B8F8E7E00EC39B3 /* LocationManager.swift */,
+				402067A12B8F668F00EC39B3 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		40B5B0572B91D0A9000B263D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				402E106A2B8F5F13002EEBE5 /* ContentView.swift */,
+				402067A32B8F681A00EC39B3 /* ContentViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		40B5B0582B91D0C1000B263D /* Lifecycle */ = {
+			isa = PBXGroup;
+			children = (
+				402E10682B8F5F13002EEBE5 /* doroApp.swift */,
+			);
+			path = Lifecycle;
+			sourceTree = "<group>";
+		};
+		40B5B0592B91D0F4000B263D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				402E106C2B8F5F14002EEBE5 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
